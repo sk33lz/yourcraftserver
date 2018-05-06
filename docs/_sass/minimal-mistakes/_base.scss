@@ -19,6 +19,8 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+
+  background: url(assets/images/body-bg.png) repeat fixed 0 0 transparent;
 }
 
 h1,
