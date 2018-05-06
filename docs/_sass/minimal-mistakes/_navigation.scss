@@ -187,6 +187,7 @@
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
+    text-shadow: 1px 1px 4px rgba(#000, 0.5);
 
     &:hover {
       color: $masthead-link-color-hover;
