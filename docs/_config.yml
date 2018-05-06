@@ -31,6 +31,7 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: "mmistakes/minimal-mistakes@4.11.1"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
