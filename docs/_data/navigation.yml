@@ -3,12 +3,12 @@ main:
   - title: "Home"
     url: /
   - title: "Server info"
-    url: server-info
+    url: /server-info
   - title: "World Map"
-    url: map
+    url: /map
   - title: "Vote"
-    url: vote
+    url: /vote
   - title: "Sitemap"
-    url: sitemap
+    url: /sitemap
   - title: "Contact"
-    url: contact
+    url: /contact
