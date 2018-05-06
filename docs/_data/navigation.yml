@@ -4,9 +4,9 @@ main:
     url: /
   - title: "Server info"
     url: server-info
-  - title: "Sample Posts"
-    url: year-archive
-  - title: "Sample Collections"
+  - title: "World Map"
+    url: map
+  - title: "Vote"
     url: vote
   - title: "Sitemap"
     url: sitemap
