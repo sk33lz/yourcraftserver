@@ -4,6 +4,11 @@ main:
     url: /
   - title: "Server info"
     url: /server-info
+    children:
+      - title: "Admin Help Wiki"
+        url: /admin-help-wiki
+      - title: "Minecraft Griefing Ban List"
+        url: /minecraft-griefing-ban-list
   - title: "World Map"
     url: /map
   - title: "Vote"
@@ -12,3 +17,8 @@ main:
     url: /sitemap
   - title: "Contact"
     url: /contact
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/ 
