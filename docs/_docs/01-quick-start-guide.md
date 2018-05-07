@@ -58,7 +58,7 @@ Sometimes players are looking to try hosting their own Minecraft server, or want
 
 Minecraft Server comes in a few different flavors depending if you want to run Minecraft Server Plugins, or just run a Vanilla Minecraft server with no plugins. This section will outline each type of server flavor available, so you can choose which server version you want to run. 
 
-**Notice:** Each server version requires that you have Java installed, so make sure to install that prior to getting started. 
+**Notice:** Each Minecraft Server version requires that you have Java installed, so make sure to install that prior to getting started. 
 {: .notice--notice}
 
 ### Install Java First
@@ -129,7 +129,7 @@ java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.2.jar nogui
 
 You can also remove the `nogui` flag to start the server with the included GUI. 
 
-**WARNING:** Make sure java executable is in your path, or you will have to provide the full path to the java executable in your command.
+**WARNING:** Make sure the `java` executable is in your path, or you will have to provide the full path to the java executable in your command.
 {: .notice--notice}
 
 ### Spigot Minecraft Server
@@ -165,7 +165,7 @@ wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifac
 
 I would copy this file to a location that you have full access to and put it in a specific directory to run out of.
 
-**Notice:** Make sure to have git installed or the BuildTools installer will not work properly. 
+**Notice:** Make sure to have `git` installed or the BuildTools installer will not work properly. 
 {: .notice--info}
 
 #### Installing Spigot with BuildTools
@@ -184,7 +184,7 @@ Specific versions of Spigot and Craftbukkit can be installed using the following
 java -jar BuildTools.jar --rev 1.12.2
 ```
 
-**Notice:** Replace --rev 1.12.2 with the version you want to build for your server. 
+**Notice:** Replace `--rev 1.12.2` with the version you want to build for your server. 
 {: .notice--info}
 
 #### Running a Spigot Minecraft Server
