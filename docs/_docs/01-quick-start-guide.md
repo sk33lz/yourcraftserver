@@ -105,23 +105,27 @@ https://minecraft.net/en-us/download/server
 
 https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar
 
-Using command line? Use `wget`:
+Using command line? Use ```wget```:
 
-`wget https://s3.amazonaws.com/Minecraft.Download/versions/1.12/minecraft_server.1.12.jar`
+```
+wget https://s3.amazonaws.com/Minecraft.Download/versions/1.12/minecraft_server.1.12.jar
+```
 
 Once downloaded, you should copy the `server.jar` file to a directory that you control to use as your Minecraft Server root directory. Depending on your operating system, this directory will vary. It is also recommended that you rename the `server.jar` file to add the current version that Minecraft Server it is. This helps keep track of when you want to update the server.
 
 Some examples:
 
-Windows: `C:\minecraft-server\minecraft_server.1.12.jar`
-Mac: `/Users/username/minecraft-server/minecraft_server.1.12.jar`
-Linux: `/home/username/minecraft-server/minecraft_server.1.12.jar`
+Windows: ```C:\minecraft-server\minecraft_server.1.12.jar```  
+Mac: ```/Users/username/minecraft-server/minecraft_server.1.12.jar```  
+Linux: ```/home/username/minecraft-server/minecraft_server.1.12.jar```  
 
 #### Running a Vanilla Minecraft Server
 
 Once you have the `server.jar` installed and/or renamed to what you want, you can start up your server. The command is basically the same on all operating systems, as long as java is in  your path.
 
-`java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.2.jar nogui`
+```
+java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.2.jar nogui
+```
 
 You can also remove the `nogui` flag to start the server with the included GUI. 
 
@@ -145,7 +149,7 @@ You can also remove the `nogui` flag to start the server with the included GUI.
 
 The Spigot team created BuildTools to allows servers owners to build all the required files for Spigot, Craftbukkit, and the Bukkit API.
 
-The `BuildTools.jar` is available from the Spigot Jenkins server found at the following URL:
+The ```BuildTools.jar``` is available from the Spigot Jenkins server found at the following URL:
 
 https://hub.spigotmc.org/jenkins/job/BuildTools/
 
@@ -155,7 +159,9 @@ https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/tar
 
 Those using command line can use the following command to download the latest BuildTools.jar file:
 
-`wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar`
+```
+wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+```
 
 I would copy this file to a location that you have full access to and put it in a specific directory to run out of.
 
@@ -168,11 +174,15 @@ The Spigot .jar file, along with the Craftbukkit and Bukkit API .jar files will 
 
 Build the latest version of Spigot, Craftbukkit, and Bukkit API with the following command:
 
-`java -jar BuildTools.jar`
+```
+java -jar BuildTools.jar
+```
 
 Specific versions of Spigot and Craftbukkit can be installed using the following command:
 
-`java -jar BuildTools.jar --rev 1.12.2`
+```
+java -jar BuildTools.jar --rev 1.12.2
+```
 
 **Notice:** Replace --rev 1.12.2 with the version you want to build for your server. 
 {: .notice--notice}
@@ -181,4 +191,6 @@ Specific versions of Spigot and Craftbukkit can be installed using the following
 
 Once the Spigot .jar file has been built by BuildTools you can start up the server with the following command:
 
-`java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot.jar`
+```
+java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot.jar
+```
