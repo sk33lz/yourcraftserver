@@ -10,8 +10,8 @@ YourCraftServer has been building and running Java Minecraft servers since mid-b
 
 This Quick-Start Guide was designed to help new Java Minecraft server owners, or those looking to start a Java Minecraft server in an easy to understand guide.
 
-**Notice:** This guide is specifically written for Java Minecraft Server. We may write other quick-start guides in the future, but this is the version we know best. This guide should be helpful for server owners using other versions of Minecraft, but some details will differ based on the version you are using. Thanks!
-{: .notice--notice}
+**Note:** This guide is specifically written for Java Minecraft Server. We may write other quick-start guides in the future, but this is the version we know best. This guide should be helpful for server owners using other versions of Minecraft, but some details will differ based on the version you are using. Thanks!
+{: .notice--info}
 
 ## Choosing a Server Location
 
@@ -50,7 +50,7 @@ Some Minecraft server owners want to have more control over their server than wh
 Sometimes players are looking to try hosting their own Minecraft server, or want to host a small server for friends on their home network to play together on the LAN. Casual players who want to just play with a few friends or test out running their own server typically don't want to pay for Minecraft Sever Hosting or VPS hosting. In this guide we will show you a few ways how to run a Minecraft server at home on a dedicated server computer, or on your local machine along side your Minecraft client.
 
 **WARNING:** Make sure if you are going to host a Minecraft server on your home network that you are only hosting for a few friends. Minecraft can use a ton of bandwidth on high population servers, and most residential ISPs do not want you running servers on their networks. If you start getting warnings from your ISP, then you should probably start looking for a hosted solution on either VPS or a Minecraft Hosting company. 
-{: .notice--notice}
+{: .notice--danger}
 
 ---
 
@@ -58,8 +58,8 @@ Sometimes players are looking to try hosting their own Minecraft server, or want
 
 Minecraft Server comes in a few different flavors depending if you want to run Minecraft Server Plugins, or just run a Vanilla Minecraft server with no plugins. This section will outline each type of server flavor available, so you can choose which server version you want to run. 
 
-**Notice:** Each Minecraft Server version requires that you have Java installed, so make sure to install that prior to getting started. 
-{: .notice--notice}
+**Note:** Each Minecraft Server version requires that you have Java installed, so make sure to install that prior to getting started. 
+{: .notice--info}
 
 ### Install Java First
 
@@ -129,8 +129,8 @@ java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.2.jar nogui
 
 You can also remove the `nogui` flag to start the server with the included GUI. 
 
-**WARNING:** Make sure the `java` executable is in your path, or you will have to provide the full path to the java executable in your command.
-{: .notice--notice}
+**ProTip:** Make sure the `java` executable is in your path, or you will have to provide the full path to the java executable in your command.
+{: .notice--info}
 
 ### Spigot Minecraft Server
 
@@ -142,8 +142,8 @@ You can also remove the `nogui` flag to start the server with the included GUI.
 
 [BuildTools](https://www.spigotmc.org/wiki/buildtools/) was created by the Spigot team to get around this licensing problem. BuildTools builds not only the Spigot executable, but also the classic Craftbukkit and Bukkit API executables from publicly available source code without breaking any copyright laws. BuildTools allows server owners to continue to use Craftbukkit or Bukkit API for their servers, as well as build the Spigot executable.
 
-**Notice:** More information on BuildTools can be found on the [Official BuildTools Wiki](https://www.spigotmc.org/wiki/buildtools/). 
-{: .notice--notice}
+**Note:** More information on BuildTools can be found on the [Official BuildTools Wiki](https://www.spigotmc.org/wiki/buildtools/). 
+{: .notice--info}
 
 #### Installing BuildTools
 
@@ -165,7 +165,7 @@ wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifac
 
 I would copy this file to a location that you have full access to and put it in a specific directory to run out of.
 
-**Notice:** Make sure to have `git` installed or the BuildTools installer will not work properly. 
+**Note:** Make sure to have `git` installed or the BuildTools installer will not work properly. 
 {: .notice--info}
 
 #### Installing Spigot with BuildTools
@@ -184,7 +184,7 @@ Specific versions of Spigot and Craftbukkit can be installed using the following
 java -jar BuildTools.jar --rev 1.12.2
 ```
 
-**Notice:** Replace `--rev 1.12.2` with the version you want to build for your server. 
+**Note:** Replace `--rev 1.12.2` with the version you want to build for your server. 
 {: .notice--info}
 
 #### Running a Spigot Minecraft Server
