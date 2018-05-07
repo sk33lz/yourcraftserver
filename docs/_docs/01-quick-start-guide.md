@@ -50,7 +50,7 @@ Some Minecraft server owners want to have more control over their server than wh
 Sometimes players are looking to try hosting their own Minecraft server, or want to host a small server for friends on their home network to play together on the LAN. Casual players who want to just play with a few friends or test out running their own server typically don't want to pay for Minecraft Sever Hosting or VPS hosting. In this guide we will show you a few ways how to run a Minecraft server at home on a dedicated server computer, or on your local machine along side your Minecraft client.
 
 **WARNING:** Make sure if you are going to host a Minecraft server on your home network that you are only hosting for a few friends. Minecraft can use a ton of bandwidth on high population servers, and most residential ISPs do not want you running servers on their networks. If you start getting warnings from your ISP, then you should probably start looking for a hosted solution on either VPS or a Minecraft Hosting company. 
-{: .notice--warning}
+{: .notice--notice}
 
 ---
 
@@ -130,7 +130,7 @@ java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.2.jar nogui
 You can also remove the `nogui` flag to start the server with the included GUI. 
 
 **WARNING:** Make sure java executable is in your path, or you will have to provide the full path to the java executable in your command.
-{: .notice--warning}
+{: .notice--notice}
 
 ### Spigot Minecraft Server
 
@@ -165,8 +165,8 @@ wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifac
 
 I would copy this file to a location that you have full access to and put it in a specific directory to run out of.
 
-**Notice:** Make sure to have git installed. 
-{: .notice--notice}
+**Notice:** Make sure to have git installed or the BuildTools installer will not work properly. 
+{: .notice--info}
 
 #### Installing Spigot with BuildTools
 
@@ -185,7 +185,7 @@ java -jar BuildTools.jar --rev 1.12.2
 ```
 
 **Notice:** Replace --rev 1.12.2 with the version you want to build for your server. 
-{: .notice--notice}
+{: .notice--info}
 
 #### Running a Spigot Minecraft Server
 
