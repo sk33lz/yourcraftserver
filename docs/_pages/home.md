@@ -12,7 +12,7 @@ feature_row:
   - image_path: /assets/images/documentation-feature.png
     alt: "server documentation"
     title: "Server Documentation"
-    excerpt: "Learn how to build and manage your own Minecraft server for your friends, or learn to build a large public server community."
+    excerpt: "Learn how to build and manage your own Minecraft server for your friends and family, or learn to build a large public Minecraft server community."
     url: "/docs/server"
     btn_class: "btn--primary"
     btn_label: "Learn More"
