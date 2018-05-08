@@ -2,7 +2,7 @@
 title: "Quick-Start Guide"
 permalink: /docs/quick-start-guide/
 excerpt: "How to quickly install and setup a Minecraft Server."
-last_modified_at: 2018-03-20T15:58:49-04:00
+last_modified_at: 2018-05-06T4:05:00-04:00
 toc: true
 ---
 

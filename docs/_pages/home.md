@@ -19,14 +19,14 @@ feature_row:
   - image_path: /assets/images/tools-feature.png
     alt: "server tools"
     title: "Server Tools"
-    excerpt: "Get the right administration tools you need to build and manage your Minecraft server."
+    excerpt: "Get the right Minecraft administration tools you need to build and manage your Minecraft server."
     url: "/docs/tools/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
   - image_path: /assets/images/mm-free-feature.png
     alt: "open source"
     title: "Open Source"
-    excerpt: "We have made our website, our documentation, and many of our tools Open Source to allow easy access to building a Minecraft server community of your own."
+    excerpt: "Our website, our documentation, and many of our tools are Open Source to allow easy access to building a Minecraft server community of your own."
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
