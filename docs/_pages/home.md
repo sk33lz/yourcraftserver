@@ -12,14 +12,14 @@ feature_row:
   - image_path: /assets/images/documentation-feature.png
     alt: "server documentation"
     title: "Server Documentation"
-    excerpt: "Learn how to build and manage your own Minecraft server for your friends, or build a public server community."
+    excerpt: "Learn how to build and manage your own Minecraft server for your friends, or learn to build a large public server community."
     url: "/docs/server"
     btn_class: "btn--primary"
     btn_label: "Learn More"
   - image_path: /assets/images/tools-feature.png
     alt: "server tools"
     title: "Server Tools"
-    excerpt: "Get the right Minecraft administration tools you need to build and manage your Minecraft server."
+    excerpt: "Get the right Minecraft administration tools you need to build and manage your Minecraft server, as well as tools to help manage your server community."
     url: "/docs/tools/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
