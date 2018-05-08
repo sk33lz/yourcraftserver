@@ -39,3 +39,9 @@ intro:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+<h2>Minecraft News</h2>
+
+{% for post in site.posts limit: 5 %}
+  {% include archive-single.html %}
+{% endfor %}
