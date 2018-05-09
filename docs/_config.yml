@@ -24,7 +24,7 @@ url                      : "https://sk33lz.github.io" # the base hostname & prot
 baseurl                  : "/yourcraftserver" # the subpath of your site, e.g. "/blog"
 repository               : "sk33lz/yourcraftserver" # GitHub username/repo-name e.g. "sk33lz/yourcraftserver"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-#breadcrumbs              : true # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -195,15 +195,15 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 3 # amount of posts to show
+#paginate_path: /page:num/
+paginate_path: /news/page:num/
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
-  - jekyll-archives
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-gist
@@ -213,7 +213,6 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-archives
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-gist
@@ -231,22 +230,22 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layouts:
+#    category: archive-taxonomy
+#    tag: archive-taxonomy
+#  permalinks:
+#    category: /categories/:name/
+#    tag: /tags/:name/
 
 # Collections
 collections:
@@ -283,7 +282,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _docs
   - scope:
       path: ""
