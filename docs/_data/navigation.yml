@@ -10,7 +10,7 @@ main:
       - title: "Minecraft Griefing Ban List"
         url: /minecraft-griefing-ban-list
   - title: "World Map"
-    url: http://map.yourcraftserver.com
+    url: http://map.yourcraftserver.com/
   - title: "Vote"
     url: /vote
   - title: "News"
