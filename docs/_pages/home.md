@@ -30,6 +30,14 @@ feature_row:
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
+feature_row2:
+  - image_path: /assets/images/logo.png
+    alt: "vote for yourcraftserver"
+    title: "Vote for YourCraftServer"
+    excerpt: 'We are a small community and can use the votes. Thanks!'
+    url: "/vote"
+    btn_label: "Vote now"
+    btn_class: "btn--primary"
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=sk33lz&repo=yourcraftserver&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=sk33lz&repo=yourcraftserver&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 intro:
@@ -38,10 +46,14 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 
+{% include feature_row id="feature_row2" type="center" %}
+
 {% include feature_row %}
 
-<h2>Minecraft News</h2>
+## Minecraft News
 
 {% for post in site.posts limit: 5 %}
   {% include archive-single.html %}
 {% endfor %}
+
+[More Minecraft News](/yourcraftserver/news/ "More Minecraft News")
