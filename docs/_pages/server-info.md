@@ -14,7 +14,7 @@ Whitelist requests are currently closed.
 
 ## YourCraft Multiverse Info
 
-**Admins:** iroczspot, protopethunter, Luckyurin  
+**Admins:** iroczspot, protopethunter, Debone  
 **Server Version:** Spigot 1.12.2  
 **Gamemodes:** SMP, PvE, PvP, Creative  
 **Chat:** Coming Soon...  
