@@ -2,7 +2,7 @@
 title: "Minecraft Snapshot 13w01a Released"
 date:   2013-01-03 20:57:24 -0500
 header:
-  image: /assets/images/unsplash-image-6.jpg
+  image: /assets/images/posts/13w01a.png
 categories:
   - news
 tags:
@@ -29,9 +29,5 @@ The Mojang team has released the first Minecraft snapshot of 2013. It includes s
 
 **Client:** http://assets.minecraft.net/13w01a/minecraft.jar  
 **Server:** http://assets.minecraft.net/13w01a/minecraft_server.jar (or [EXE](http://assets.minecraft.net/13w01a/Minecraft_Server.exe))
-
-**Please report any bugs you find here:**
-
-[Minecraft issue tracker](https://mojang.atlassian.net/browse/MC)
 
 YourCraft Multiverse will not be adding this snapshot to the server, but you are free to check it out in singleplayer and come back afterwards. Just don't forget to backup your Minecraft.jar file! We will soon have a guide on how to backup your minecraft.jar file if you don't know how. Stay tuned to the site for more info!
