@@ -1,8 +1,6 @@
 ---
-title: "Minecraft Snapshot 13w05a"
+title: "Minecraft Snapshot 13w05b"
 date: 2013-02-02 15:17:53 -0500
-header:
-  image: /assets/images/posts/13w05a.png
 categories:
   - news
 tags:
@@ -10,7 +8,7 @@ tags:
   - snapshot
 ---
 
-[Yesterdays snapshot](/news/minecraft-snapshot-13w05b) had a few too many bugs and crashes for our liking, so we spent some of Gaming Friday to rectify that! With 11 bugs fixed, say “hello, world” to Snapshot 13w05b!
+[Yesterdays snapshot](/news/minecraft-snapshot-13w05a) had a few too many bugs and crashes for our liking, so we spent some of Gaming Friday to rectify that! With 11 bugs fixed, say “hello, world” to Snapshot 13w05b!
 
 - [Bug MC-136] – Visual glitch on retracting piston
 - [Bug MC-2340] – Redstone torches and comparators schedule updates when they should not. Causing unreliable timings.
