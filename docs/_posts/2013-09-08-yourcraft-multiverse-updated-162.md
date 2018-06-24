@@ -1,5 +1,5 @@
 ---
-title: "YourCraft Multiverse Updated to 1.6.2"
+title: "Test"
 date: 2013-09-08 17:52:05 -0400
 categories:
   - news
