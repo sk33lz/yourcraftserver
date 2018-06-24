@@ -1,0 +1,142 @@
+---
+title: "Minecraft 1.7.2 Released"
+date: 2013-10-22 00:00:00 -0400
+header:
+  image: /assets/images/posts/1.7.png
+categories:
+  - news
+tags:
+  - release
+  - Minecraft 1.7
+  - Minecraft news
+---
+
+Update: Pre-release 1.7.2 has been released to address some serious crashes, including the inability to start on some Linux computers.It feels like we’ve been working on this for a year now, with more than half a million lines of code changed over 1,104 commits we’ve been working extremely hard on this update. We’re calling this one “The update that changed the world”, because it really has in two different ways; there’s over twice the amount of ingame biomes, and we’ve overhauled lots of the code preparing for the plugin API.Here’s a list of cool things that may be coming your way on Friday, if the pre-release goes well!
+
+- New world generation!
+  - Double the amount of biomes, with new trees/flowers/blocks.
+  - New “Amplified” world option.
+  - Less ocean, more awesome.
+- New blocks!
+  - Two new types of wood.
+  - Stained glass! With both blocks and panes.
+  - Packed ice, red sand, podzol.
+  - Lots of new flowers, including double-tall versions of current plants.
+  - Portals can be bigger sizes!
+- Fishing!
+  - Added more type of fish.
+  - Redone the fishing mechanics. Can now catch junk and treasure too.
+  - Fishing rod enchantments!
+- Maps!
+  - Put them in an item frame and hang them on your wall. They’re extra big!
+  - Lots of new colours for lots of blocks!
+  - Now with less lag!
+- Achievement & Statistics overhaul!
+  - Now both world (or server) specific.
+  - In multiplayer, it’s announced to everybody when you get an achievement.
+    - You can move your mouse over this in the chat to see what it was!
+  - Some new achievements and statistic types were added.
+  - Zoomable achievements screen!
+- Multiplayer enhancements!
+  - Servers can now put a 64×64 image called “server-icon.png” in their folder, that you will see on your server list.
+  - You can see who’s online before joining a server; move your mouse over the player count!
+  - Lots of hidden preparation for allowing name changes.
+- Resource pack changes!
+  - You can now have multiple selected.
+  - They can completely re-do your sounds, adding new ones or changing current ones.
+  - Servers can now recommend a resource pack for you to use.
+- Chat & command improvements!
+  - New commands to spawn mobs or blocks of any type.
+  - Command block minecart!
+  - Clickable links to achievements and items.
+  - Click on somebody’s name in the chat to message them!
+- Lots and lots of technical work!
+  - Completely rewrote how the network (multiplayer) works.
+  - Completely rewrote the sound manager.
+  - New graphics options.
+  - Basic shader support testing.
+  - Many bugs fixed, including:
+    - [MC-291] – Screenshots are treated as links in the console.
+    - [MC-673] – Sky/lighting doesn’t get darker during a thunderstorm
+    - [MC-715] – V-Sync in Window mode, settings not activated between sessions.
+    - [MC-784] – Letters in Arabic Language not connected
+    - [MC-881] – Boat inflicts fall damage if it runs aground in some fashion (Slabs, Mobs, Soul Sand)
+    - [MC-944] – Armour with Protection on it seems to reduce against hunger damage
+    - [MC-1018] – Black Lighting under overhangs
+    - [MC-1105] – Villagers act like it is Raining when they are in the Desert, and it Rains elsewhere.
+    - [MC-1379] – Transparent texture makes transparent texture behind invisible
+    - [MC-2638] – Old AI mobs and Wolves don’t turn back to passive in Creative
+    - [MC-2915] – Attempting to tp to an invalid coordinate returns “commands.generic.double.invalid”
+    - [MC-3305] – Cyrillic font not displaying on signs and in chat (Russian language)
+    - [MC-3871] – Cauldron water does not put out fire / damage blaze
+    - [MC-3973] – Silk Touch, pre-lit Redstone Lamps
+    - [MC-4150] – Baby Zombies do not drop any loot / xp
+    - [MC-4482] – Saplings placed on Farmland are not affected by Bonemeal
+    - [MC-4732] – Tools and weapons lose durability without doing damage
+    - [MC-4921] – Sounds (eg. Mobs / Portals / Water) Don’t Immediately Fade
+    - [MC-4973] – Zombie Pigman from Nether Portal still spawns even if doMobSpawning is false
+    - [MC-5238] – 10 MB server texture pack limit too small
+    - [MC-5305] – Arrows from a flame bow aren’t extinguished from rain
+    - [MC-5550] – Night Time Doesn’t Immediately Allow Sleep
+    - [MC-6820] – The generation of terrain surface layer produces local straight glitches (fix included)
+    - [MC-7449] – Silverfish infected Stone Brick varients appears as normal stone brick.
+    - [MC-8331] – Command block text disappears if too long
+    - [MC-9271] – Opening a singleplayer world is counted as a multiplayer join in the statistics
+    - [MC-9547] – Incorrect usage string for `/scoreboard teams empty`
+    - [MC-9779] – Old versions of output-server.log and lock files remain on harddisk
+    - [MC-10077] – Ajasent Obsidian Blocks prevent Nether portal appearing
+    - [MC-10257] – when a pig gets struck by lightning it spawns without a sword
+    - [MC-10984] – GS4 query listener fails to send player list when len(players) > 127
+    - [MC-11027] – Axes accelarate the speed at which Slabs are broken
+    - [MC-11280] – Sometimes Water flows out of newly generated Village Farms
+    - [MC-11518] – RCON and Scoreboard Command Output Formatting
+    - [MC-12450] – Missing usage string commands.scoreboard.players.list.usage
+    - [MC-12452] – Scoreboard team join command fails on invalid team name
+    - [MC-12454] – Scoreboard option seeFriendlyInvisibles not listed in usage
+    - [MC-12541] – the letters for the ‘off’ setting on smooth lighting aren’t capitalised
+    - [MC-12731] – Minecraft crashes if you click edit or delete on a LAN game
+    - [MC-12769] – when typing /help with a number higher than 4, it produces the wrong message
+    - [MC-12984] – getting a locked chest pushed into your head crashes the game
+    - [MC-13565] – Fireworks sometimes don’t stack when they should
+    - [MC-13661] – When re-sizing window before game loads internal view doesn’t resize
+    - [MC-14521] – Boats cannot be steered by using the “left” and “right” keys
+    - [MC-14865] – Carpets Are Not Flammable
+    - [MC-15547] – Structures (witch huts, nether fortresses etc.) don’t get saved with the world file
+    - [MC-15564] – Start up failure: “Cannot determine close requested state of uncreated window”
+    - [MC-15688] – Axe breaks all slabs in adventure mode. No drops for stone.
+    - [MC-16324] – Massive Amount of “[SEVERE] Reached end of stream” messages
+    - [MC-16435] – Boats Still Break on Lily’s
+    - [MC-16849] – Crash near pyramid
+    - [MC-16910] – Packet250CustomPayload(dk)
+    - [MC-17090] – Invalid teamcolors throw an NPE in the console
+    - [MC-17831] – Crash selecting resource pack [13w24b]
+    - [MC-18569] – Server resourcepacks not implemented yet
+    - [MC-18672] – Textures disappearing after setting player walkSpeed to 0
+    - [MC-19483] – sounds playing after leaving world
+    - [MC-19604] – Cannot /playsound records
+    - [MC-21870] – Screen goes blank when modifying walk speed
+    - [MC-22927] – Animals running forever after being hit
+    - [MC-26151] – Minecraft has advice on an error report that should be deleted.
+    - [MC-26608] – /spreadplayers confirmation text is wrong
+    - [MC-26660] – Constant minecart sound
+    - [MC-27284] – /scoreboard teams option color: Tab doesnt list all options.
+    - [MC-27904] – The Hindi, Malay and Norsk (Bokmål) language appear 2 times
+    - [MC-28400] – Breeding animals gives xp even if doMobLoot gamerule is false
+    - [MC-28405] – The saddle equip sound effect does not play when equipping a pig with a saddle.
+    - [MC-28478] – Successful hit sound effect does not match the sound in the assets sound folder
+    - [MC-28625] – The horse armor equip sound does not play when replacing others
+    - [MC-28768] – Horse Breeding Doesn’t Produce Markings Correctly on Foal
+    - [MC-29088] – Shearing sound does not play when shearing a mooshroom
+    - [MC-29279] – Bug: the command block can be damaged by the explosion of Blue Wither Skulls
+    - [MC-29321] – Jukeboxes play at the sound volume for effects until you change the music volume
+    - [MC-29361] – Oceans are too big
+    - [MC-29424] – Players appear offset for other clients after going through nether portals
+    - [MC-31031] – Spawn eggs can be used on top of water, but not lava
+    - [MC-31065] – Villages not generating? (snapshot 13w37b)
+    - [MC-32250] – Typo on “Unable to Load Worlds” screen
+    - [MC-32534] – piston extention givies tile.nill.name
+    - [MC-32679] – Spawned in enderportals are not nameable
+
+To help test the pre-release, open your launcher and press the “New Profile” button. Call it “snapshots” and check the box saying “Enable experimental development snapshots” and save. To switch to the normal version, you can select it in the dropdown at the bottom left corner of the launcher.
+
+**Server jar:** https://s3.amazonaws.com/Minecraft.Download/versions/1.7.2/minecraft_server.1.7.2.jar(On windows, right click -> open with -> java)
