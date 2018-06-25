@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/homepage-feature.jpg
   cta_label: "<i class='fas fa-play'></i> Get Started"
   cta_url: "/docs/quick-start-guide/"
   caption:
