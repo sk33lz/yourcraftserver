@@ -1,7 +1,7 @@
 ---
 title: "Contact YourCraftServer"
 sitemap: true
-permalink: /vote
+permalink: /contact
 ---
 
 Join the conversation on our Discord, https://discord.gg/Jt6fxNP.
