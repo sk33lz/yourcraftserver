@@ -18,3 +18,7 @@ Our server is Votifier enabled, so vote for Yourcraftserver.com daily and receiv
 - [Click here](https://minecraftservers.biz/servers/86931/vote/) to vote on Minecraftservers.biz.
 - [Click here](http://minecraft-mp.com/server/7865/vote/) to vote on Minecraft-mp.com.
 - [Click here](http://vote.minetop.net/552.html) to vote on Minetop.net.
+
+There have been a ton of sites that have become unstable for voting, so I am looking for more. Here are some that I am testing.
+
+- https://minecraftlist.org/
