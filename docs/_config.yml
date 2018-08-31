@@ -286,7 +286,7 @@ defaults:
       share: true
   # _docs
   - scope:
-      path: ""
+      path: "_docs"
       type: docs
     values:
       layout: single
