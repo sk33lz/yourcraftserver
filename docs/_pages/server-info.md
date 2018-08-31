@@ -4,17 +4,16 @@ sitemap: true
 permalink: /server-info/
 ---
 
-YourCraftServer is currently a whitelisted server community.
-
-Whitelist requests are currently closed.
+YourCraftServer has both a Public server for all and Private whitelisted server available for some older members.
 
 ## YourCraft Multiverse Servers
 
-**Main Server:** mc.yourcraftserver.com
+**Public Server:** mc.yourcraftserver.com
+**Private Server:** mc2.yourcraftserver.com
 
-## YourCraft Multiverse Info
+## YourCraft Server Info
 
 **Admins:** iroczspot, protopethunter, Debone  
 **Server Version:** Spigot 1.12.2  
 **Gamemodes:** SMP, PvE, PvP, Creative  
-**Chat:** Coming Soon...  
+**Chat:** Join us on Discord, https://discord.gg/Jt6fxNP  
