@@ -251,7 +251,7 @@ tag_archive:
 collections:
   docs:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/index.html
   recipes:
     output: true
     permalink: /:collection/:path/
