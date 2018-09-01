@@ -4,7 +4,6 @@ main:
     url: /
   - title: "Server info"
     url: /server-info
-    
   - title: "World Map"
     url: http://mc.yourcraftserver.com:8123/
   - title: "Vote"
