@@ -8,7 +8,7 @@ YourCraftServer has both a Public server for all and Private whitelisted server 
 
 ## YourCraft Multiverse Servers
 
-**Public Server:** mc.yourcraftserver.com
+**Public Server:** mc.yourcraftserver.com  
 **Private Server:** mc2.yourcraftserver.com
 
 ## YourCraft Server Info
