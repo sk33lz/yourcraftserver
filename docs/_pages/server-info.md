@@ -1,6 +1,8 @@
 ---
 title: "Server Info"
 sitemap: true
+sidebar:
+  nav: server-info
 permalink: /server-info/
 ---
 
