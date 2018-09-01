@@ -9,19 +9,19 @@ header:
   caption:
 excerpt: 'A Minecraft Server community providing helpful documentation and open source tools for running Minecraft servers.<br /> <small>Server Running: Spigot 1.12.2</small><br /><br />'
 feature_row:
-  - title: "Server Documentation"
+  - title: "Server Admin Guides"
     excerpt: "Learn how to build and manage your own Minecraft server for your friends and family, or learn to build a large public Minecraft server community."
-    url: "/docs/server"
+    url: "/docs/server-admin-guide"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - title: "Server Tools"
+    btn_label: "Admin Guides"
+  - title: "Server Admin Tools"
     excerpt: "Get the right Minecraft administration tools you need to build and manage your Minecraft server, as well as tools to help manage your server community."
-    url: "/docs/tools/"
+    url: "/docs/server-admin-tools/"
     btn_class: "btn--primary"
-    btn_label: "Learn More"
+    btn_label: "Admin Tools"
   - title: "Open Source"
     excerpt: "Our website, our documentation, and many of our tools are Open Source to allow easy access to building a Minecraft server community of your own."
-    url: "/docs/license/"
+    url: "https://github.com/sk33lz/yourcraftserver"
     btn_class: "btn--primary"
     btn_label: "Learn More"
 feature_row2:
