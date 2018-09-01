@@ -19,10 +19,12 @@ docs:
   - title: "Getting Started"
     url: /docs
     children:
-      - title: "Quick-Start Guide"
+      - title: "Minecraft Quick-Start Guide"
         url: /docs/quick-start-guide/
-      - title: "Mineraft Server Documentation"
-        url: /docs/server
+      - title: "Mineraft Server Admin Guide"
+        url: /docs/server-admin-guide
+      - title: "Minecraft Server Admin Tools"
+        url: /docs/server-admin-tools
 # server info sidebar
 server-info:
   - title: Server Info
