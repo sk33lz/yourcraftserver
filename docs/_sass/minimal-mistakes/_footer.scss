@@ -20,7 +20,7 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background: url("/yourcraftserver/assets/images/footer-bg.png") repeat fixed 0 0 transparent;
+  background: url("/assets/images/footer-bg.png") repeat fixed 0 0 transparent;
 
   footer {
     @include clearfix;
