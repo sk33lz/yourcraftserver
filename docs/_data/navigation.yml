@@ -16,10 +16,13 @@ main:
     url: /contact
 # docs sidebar
 docs:
-  - title: Getting Started
+  - title: "Getting Started"
+    url: /docs
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
+      - title: "Mineraft Server Documentation"
+        url: /docs/server
 # server info sidebar
 server-info:
   - title: Server Info
