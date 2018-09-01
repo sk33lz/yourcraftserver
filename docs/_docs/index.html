@@ -1,5 +1,6 @@
 ---
 layout: home
+permalink: /docs/index.html
 sidebar:
   - title: "Title"
     image: http://placehold.it/350x250
@@ -8,3 +9,9 @@ sidebar:
   - title: "Another Title"
     text: "More text here."
 ---
+
+{% for item in site._docs %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
