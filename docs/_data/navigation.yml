@@ -4,21 +4,28 @@ main:
     url: /
   - title: "Server info"
     url: /server-info
+    
+  - title: "World Map"
+    url: http://mc.yourcraftserver.com:8123/
+  - title: "Vote"
+    url: /vote
+  - title: "News"
+    url: /news
+  - title: "Docs"
+    url: /docs
+  - title: "Contact"
+    url: /contact
+# docs sidebar
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+# server info sidebar
+server-info:
+  - title: Server Info
     children:
       - title: "Admin Help Wiki"
         url: /admin-help-wiki
       - title: "Minecraft Griefing Ban List"
         url: /minecraft-griefing-ban-list
-  - title: "World Map"
-    url: http://map.yourcraftserver.com/
-  - title: "Vote"
-    url: /vote
-  - title: "News"
-    url: /news
-  - title: "Contact"
-    url: /contact
-docs:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/ 
