@@ -4,8 +4,8 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Docs" }}</h3>
 
-{% for doc in paginator.docs %}
-  {% include archive-single.html %}
+{% for item in site._docs %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
 {% endfor %}
-
-{% include paginator.html %}
