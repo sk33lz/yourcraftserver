@@ -20,7 +20,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Admin Tools"
   - title: "Free as in Speech"
-    excerpt: "Our website, our server guides, and many of our server tools are Open Source to allow free access to building a Minecraft server community of your own."
+    excerpt: "Our website, server guides, and many of our server tools are Open Source to allow free and open access to building a Minecraft server or community of your own."
     url: "https://github.com/sk33lz/yourcraftserver"
     btn_class: "btn--primary"
     btn_label: "Learn More"
