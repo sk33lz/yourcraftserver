@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Testing 123
+title: Minecraft Documentation
 permalink: /docs/index.html
 sidebar:
   - title: "Title"
@@ -11,4 +11,10 @@ sidebar:
     text: "More text here."
 ---
 
-This is a test.
+We have a growing library of Minecraft documentation for for both server admins and players.
+
+{% for item in site.docs %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
