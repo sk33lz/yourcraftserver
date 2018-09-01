@@ -15,6 +15,6 @@ We have a growing library of Minecraft documentation for for both server admins 
 
 {% for item in site.docs %}
   {% if item.title != 'Minecraft Documentation' %}
-    <p><a href="/{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></p>
+    <p><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></p>
   {% endif %}
 {% endfor %}
