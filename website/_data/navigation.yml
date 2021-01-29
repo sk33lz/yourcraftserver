@@ -3,17 +3,17 @@ main:
   - title: "Home"
     url: /
   - title: "Server info"
-    url: /server-info
+    url: server-info
   - title: "World Map"
     url: http://mc.yourcraftserver.com:8923/
   - title: "Vote"
-    url: /vote
+    url: vote
   - title: "News"
-    url: /news
+    url: news
   - title: "Docs"
-    url: /docs
+    url: docs
   - title: "Contact"
-    url: /contact
+    url: contact
 # docs sidebar
 docs:
   - title: "Getting Started"
