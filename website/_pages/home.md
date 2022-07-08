@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fas fa-play'></i> Get Started"
   cta_url: "/docs/quick-start-guide/"
   caption:
-excerpt: 'A Minecraft Server community providing helpful documentation and open source tools for running Minecraft servers.<br /> <small>Server Running: Paper Spigot 1.15.2</small><br /><br />'
+excerpt: 'A Minecraft Server community providing helpful documentation and open source tools for running Minecraft servers.<br /> <small>Server Running: Paper Spigot 1.19.0</small><br /><br />'
 feature_row:
   - title: "Server Admin Guides"
     excerpt: "Learn how to build and manage your own Minecraft server for your friends and family, or learn to build a large public Minecraft server community."
